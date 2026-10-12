@@ -1,0 +1,19 @@
+# Ignore datasets
+data/*
+
+# Keep the data folder structure on GitHub
+!data/.gitkeep
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore local Python environments
+.venv/
+venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables and secrets
+.env
